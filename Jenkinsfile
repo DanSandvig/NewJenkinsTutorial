@@ -11,7 +11,7 @@ pipeline {
         
         stage('Run shell script') {
             steps {
-                sh 'chmod +x myscript'
+                sh 'chmod +x ./myscript'
                 sh './myscript'
             }
         }
